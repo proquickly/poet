@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "poet"
+version = "0.1.0"
+description = ""
+authors = ["Andy Miles <akmiles@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+loguru = "^0.7.2"
+PySnooper = "^1.2.0"
+black = "^23.12.1"
+flake64 = "^0.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
